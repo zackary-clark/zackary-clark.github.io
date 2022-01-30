@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: portfolio-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: portfolio
@@ -12,6 +12,15 @@ spec:
       labels:
         app: portfolio
     spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: size
+                    operator: In
+                    values:
+                      - large
       containers:
         - name: portfolio
           image: zackaryclark/portfolio:latest
