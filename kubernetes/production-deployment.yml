@@ -23,7 +23,13 @@ spec:
                       - large
       containers:
         - name: portfolio
-          image: zackaryclark/portfolio:latest
-          imagePullPolicy: Always
+          image: nginx:latest
           ports:
             - containerPort: 80
+          volumeMounts:
+            - mountPath: "/usr/share/nginx/html"
+              name: portfolio-mount
+      volumes:
+        - name: portfolio-mount
+          persistentVolumeClaim:
+            claimName: portfolio-claim
