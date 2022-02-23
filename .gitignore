@@ -2,6 +2,8 @@
 .gradle/
 /build/
 .env
+.env.*
+!.env.example
 .data
 /bin/
 /generated/
@@ -12,6 +14,8 @@
 stats.json
 /coverage/
 /dist/
+/.svelte-kit
+/package
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
