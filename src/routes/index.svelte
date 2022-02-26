@@ -4,8 +4,18 @@
 
 <div id="main">
     <h1>Zack Clark</h1>
-    <h2>Full Stack Software Engineer</h2>
-    <p>Welcome to my portfolio. I'm Zack, and I'm a Full Stack Software Engineer with years of experience building cloud-native SPAs in Agile environments. I believe passionately in Test Driven Development and shifting left the testing and security of applications using CI/CD.</p>
+    <p>
+        Welcome to my portfolio. It's where I show off my hobby projects, and try to show that I know just enough to be hired...
+    </p>
+    <p>
+        I'm a former Air Force Officer and current Full Stack Software Engineer building PWAs and leading dev teams since 2018.
+    </p>
+    <p>
+        I believe passionately in TDD and DevOps.
+    </p>
+    <p>
+        My favorite environment is one where strong opinions are loosely held, the strength of ideas is more important than rank or position, and radical honesty is the status quo.
+    </p>
 </div>
 
 <style>
