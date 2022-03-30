@@ -56,3 +56,8 @@ a:hover {
 .main {
     padding: 1em;
 }
+
+::selection {
+    background-color: var(--orange);
+    color: var(--bg);
+}

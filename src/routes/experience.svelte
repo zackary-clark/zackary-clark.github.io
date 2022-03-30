@@ -9,5 +9,10 @@
 <style>
     #main {
         padding: 1em;
+        margin-top: 3em;
+    }
+
+    h1 {
+        color: var(--primary);
     }
 </style>
