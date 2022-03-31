@@ -1,4 +1,6 @@
 <script>
+    import Fa from "svelte-fa";
+    import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
     import SecondaryBar from "../components/SecondaryBar.svelte";
 </script>
 
@@ -46,7 +48,11 @@
         </ul>
     </div>
     <div id="tracker">
-        <h1><a href="https://zackary-clark.duckdns.org/strongman-tracker/">Strongman Tracker</a></h1>
+        <h1>
+            <a href="https://zackary-clark.duckdns.org/strongman-tracker/" target="_blank" rel="noopener noreferrer">
+                Strongman Tracker <Fa icon={faArrowUpRightFromSquare} />
+            </a>
+        </h1>
         <p>
             This project has been in progress, off and on, since 2018.
             It started because I actually wanted (and still want) a workout tracking app to fill a niche that I haven't yet found a tool for.
@@ -55,8 +61,8 @@
             Over the years, I've added almost no features.
         </p>
         <p>
-            This is due to heavily prioritizing learning, so my time has mostly gone to migrations.
-            Migrations meant to learn frameworks and platforms to help in my day-to-day job.
+            This is due to heavily prioritizing learning, so my time has mostly gone toward migrations -
+            meant to teach me frameworks and platforms I needed in my day job.
         </p>
         <p>
             It's moved from Heroku & GitHub Pages to my own K8s cluster. It's moved from MySQL to MongoDB to PostgreSQL. It's migrated from Java/Spring, to Express/Node, to Apollo Server. It was my first exposure to <i>both</i> Enzyme and React Testing Library.
