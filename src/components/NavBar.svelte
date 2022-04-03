@@ -13,11 +13,6 @@
             </a>
         </li>
         <li>
-            <a class="header-link text-link" href="/experience">
-                Experience
-            </a>
-        </li>
-        <li>
             <a class="header-link text-link" href="/projects">
                 Projects
             </a>
