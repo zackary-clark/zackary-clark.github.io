@@ -49,7 +49,7 @@
     </div>
     <div id="tracker">
         <h1>
-            <a href="https://zackary-clark.duckdns.org/strongman-tracker/" target="_blank" rel="noopener noreferrer">
+            <a href="http://zackary-clark.duckdns.org/strongman-tracker/" target="_blank" rel="noopener noreferrer">
                 Strongman Tracker <Fa icon={faArrowUpRightFromSquare} />
             </a>
         </h1>
