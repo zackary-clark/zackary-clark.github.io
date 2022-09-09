@@ -42,14 +42,12 @@
             <li>TrueNAS - Persistent Off-Cluster Storage</li>
             <li>NFS Subdir External Provisioner - Dynamic Persistent Volume Provisioner</li>
             <li>Kubegres - K8s Operator for PostgreSQL Instances</li>
-            <li>Duck DNS - Free Dynamic DNS</li>
-            <li>*upcoming* KeyCloak - Authentication & Authorization</li>
-            <li>*upcoming* Let's Encrypt - Real SSL Cert(s)</li>
+            <li>KeyCloak - Authentication & Authorization</li>
         </ul>
     </div>
     <div id="tracker">
         <h1>
-            <a href="http://zackary-clark.duckdns.org/strongman-tracker/" target="_blank" rel="noopener noreferrer">
+            <a href="https://tracker.zclark.dev" target="_blank" rel="noopener noreferrer">
                 Strongman Tracker <Fa icon={faArrowUpRightFromSquare} />
             </a>
         </h1>
