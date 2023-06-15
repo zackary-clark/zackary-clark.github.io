@@ -3,6 +3,7 @@
         <li><a class="header-link text-link" href="#portfolio">Portfolio</a></li>
         <li><a class="header-link text-link" href="#hosting">Hosting</a></li>
         <li><a class="header-link text-link" href="#tracker">Tracker</a></li>
+        <li><a class="header-link text-link" href="#snake-game">Snake</a></li>
     </ul>
 </header>
 

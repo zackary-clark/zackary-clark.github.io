@@ -23,7 +23,7 @@
             </a>
         </li>
         <li>
-            <a class="header-link" href="mailto:zackary.a.clark@gmail.com">
+            <a class="header-link" href="mailto:zack@zclark.dev">
                 <Fa size="1.5x" icon={faEnvelope} />
             </a>
         </li>
