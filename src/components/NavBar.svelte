@@ -1,6 +1,6 @@
 <script>
     import Fa from "svelte-fa";
-    import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+    import { faGithub } from "@fortawesome/free-brands-svg-icons";
     import { faTerminal, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 </script>
 
@@ -15,11 +15,6 @@
         <li>
             <a class="header-link text-link" href="/projects">
                 Projects
-            </a>
-        </li>
-        <li>
-            <a class="header-link" href="https://www.linkedin.com/in/zackary-clark/">
-                <Fa size="1.5x" icon={faLinkedin} />
             </a>
         </li>
         <li>
